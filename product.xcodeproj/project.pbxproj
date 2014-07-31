@@ -53,6 +53,7 @@
 		602FEC0D197E01AE0010B735 /* productTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "productTests-Info.plist"; sourceTree = "<group>"; };
 		602FEC0F197E01AE0010B735 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		602FEC11197E01AE0010B735 /* productTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = productTests.m; sourceTree = "<group>"; };
+		602FEC1C197E067B0010B735 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,7 +197,7 @@
 		602FEBDB197E01AE0010B735 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = HWA;
+				CLASSPREFIX = FHA;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
@@ -287,6 +288,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				602FEBF9197E01AE0010B735 /* Base */,
+				602FEC1C197E067B0010B735 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -380,6 +382,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "product/product-Prefix.pch";
 				INFOPLIST_FILE = "product/product-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "product/product-Prefix.pch";
 				INFOPLIST_FILE = "product/product-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +461,7 @@
 				602FEC17197E01AE0010B735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		602FEC18197E01AE0010B735 /* Build configuration list for PBXNativeTarget "productTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +470,7 @@
 				602FEC1A197E01AE0010B735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

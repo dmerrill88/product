@@ -26,4 +26,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)Buttonclicked:(id)sender {
+}
+
+- (IBAction)LoginButtonclicked:(id)sender {
+}
+
+- (IBAction)ResetButtonclicked:(id)sender {
+}
 @end
